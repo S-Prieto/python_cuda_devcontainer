@@ -3,7 +3,7 @@ Workspace to be used as a development container inside VSCode. All these instruc
 - Make sure you have Docker properly installed in your machine. Refer to the [official documentation](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) if not. 
 	- Make sure the latest nvidia driver is installed
 		- Run `nvidia-smi`, you should obtain information and details about your graphics card. If not, you need to install the driver.
-		- Follow instructions from [official nvidia page](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html)
+		- Follow instructions from [official nvidia page](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html)  
                     `sudo apt update && sudo apt upgrade && ubuntu-drivers devices`  
                     Check that the recommended driver is the one suitable for you  
                     `sudo ubuntu-drivers autoinstall`  
