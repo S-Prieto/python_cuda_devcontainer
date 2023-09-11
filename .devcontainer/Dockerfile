@@ -53,7 +53,3 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # Set up autocompletion for user
 RUN apt-get update && apt-get install -y git-core bash-completion \
   && rm -rf /var/lib/apt/lists/* 
-
-# Install pip requirements
-COPY requirements.txt .
-RUN python -m pip install -r requirements.txt
